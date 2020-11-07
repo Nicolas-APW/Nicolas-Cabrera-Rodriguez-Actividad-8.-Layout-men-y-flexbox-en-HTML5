@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  z-index: 10;
+}
+
+nav {
+  float: left; 
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #3ead47;
+}
+#downloads:hover{
+  background: #6eab2e;
+}
+#documentation:hover{
+  background: #6c336d ;
+}
+#tracker:hover{
+  background: #4653b4;
+}
+#demo:hover {
+  background: #999;
+}
+#development:hover{
+  background: #4653b4;
+}
+#translation:hover{
+  background: #a62a3e;
+}
+#moodle-net:hover{
+  background: orangered;
+}
